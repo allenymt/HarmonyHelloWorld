@@ -1,0 +1,41 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/yulun/.ohos/config/auto_debug_HelloWorld_com.example.helloworld_260086000021751713.cer",
+          "storePassword": "0000001BE2D92E8EBAD3A7785E4071BC8FDE80DA3485EF76326AFA7DAC3CB61E76CAD1D6BDD007ACAA964A",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B3B796D18333AF3F537D1FE05994C4CEAFDC7EB2FD9ED0405A7E2CE3CD8460D1A5CFF3D6B03BB03",
+          "profile": "/Users/yulun/.ohos/config/auto_debug_HelloWorld_com.example.helloworld_260086000021751713.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/yulun/.ohos/config/auto_debug_HelloWorld_com.example.helloworld_260086000021751713.p12"
+        }
+      }
+    ],
+    "compileSdkVersion": 9,
+    "compatibleSdkVersion": 9,
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

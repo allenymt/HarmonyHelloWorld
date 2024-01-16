@@ -1,0 +1,13 @@
+{
+  "src": [
+    "pages/ui/Index",
+    "pages/ui/TestBuilder",
+    "pages/ui/TestStyle",
+    "pages/ui/TestStateStyles",
+    "pages/state/TestState",
+    "pages/state/TestProp",
+    "pages/state/TestLink",
+    "pages/state/TestProvide",
+    "pages/state/TestObserved"
+  ]
+}
